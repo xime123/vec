@@ -1,0 +1,117 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/cyan_normal</item>
+        <item name="colorPrimaryDark">@color/cyan_normal</item>
+        <item name="colorAccent">@color/cyan_normal</item>
+    </style>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="HomeRadioButtonStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">10dp</item>
+        <item name="android:textColor">@color/home_bottom_button</item>
+        <item name="android:background">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:button">@null</item>
+    </style>
+
+    <!--标题栏-->
+    <declare-styleable name="CommonActionBar">
+        <attr name="showBack" format="boolean" />
+        <attr name="showMenu1" format="boolean" />
+        <attr name="showMenu2" format="boolean" />
+        <attr name="backSrc" format="reference" />
+        <attr name="menu1Src" format="reference" />
+        <attr name="menu2Src" format="reference" />
+        <attr name="titleText" format="string" />
+    </declare-styleable>
+
+    <style name="SplashTheme" parent="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen">
+        <item name="android:windowBackground">@mipmap/splash</item>
+    </style>
+    <!--圆形图片-->
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+    <style name="Text_white_36">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black_1</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <dimen name="medium_head_width">80dp</dimen>
+    <dimen name="medium_head_height">80dp</dimen>
+
+
+    <style name="SImageAppearance"></style>
+    <style name="SImageAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="STextAppearance"></style>
+
+    <style name="STextAppearance.Micro">
+        <item name="android:textSize">@dimen/s_text_size_micro</item>
+    </style>
+
+    <style name="STextAppearance.Small">
+        <item name="android:textSize">@dimen/s_text_size_small</item>
+    </style>
+
+    <style name="STextAppearance.Medium">
+        <item name="android:textSize">@dimen/s_text_size_medium</item>
+    </style>
+
+    <style name="STextAppearance.Large">
+        <item name="android:textSize">@dimen/s_text_size_large</item>
+    </style>
+    <!-- ———————————————————— 白色字体style ———————————————————— -->
+    <style name="STextAppearance.Micro.White1">
+        <item name="android:textColor">@color/s_text_color_white_1</item>
+    </style>
+
+    <style name="STextAppearance.Small.White1">
+        <item name="android:textColor">@color/s_text_color_white_1</item>
+    </style>
+
+    <style name="STextAppearance.Medium.White1">
+        <item name="android:textColor">@color/s_text_color_white_1</item>
+    </style>
+
+    <style name="STextAppearance.Large.White1">
+        <item name="android:textColor">@color/s_text_color_white_1</item>
+    </style>
+
+    <style name="STextAppearance.Small.Black3">
+        <item name="android:textColor">@color/s_text_color_black_3</item>
+    </style>
+
+    <style name="STextAppearance.Medium.Black3">
+        <item name="android:textColor">@color/s_text_color_black_3</item>
+    </style>
+    <style name="STextAppearance.Medium.Black1">
+        <item name="android:textColor">@color/s_text_color_black_1</item>
+    </style>
+
+    <!--通用的文本-->
+    <declare-styleable name="CommonLineTextView">
+        <attr name="showLeft_top_line" format="boolean" />
+        <attr name="showLeft_bottom_line" format="boolean" />
+        <attr name="showLeft_icon" format="boolean" />
+        <attr name="showTextRightIcon" format="boolean" />
+        <attr name="showTextLine" format="boolean" />
+        <attr name="text_right_src" format="reference" />
+        <attr name="text_left_src" format="reference" />
+        <attr name="data_text" format="string" />
+        <attr name="title" format="string" />
+    </declare-styleable>
+</resources>
